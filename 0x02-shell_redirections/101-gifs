@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find -type f-name "*.git"| rev| cut -d "/" -f 1| cut -d '.' -f 2| rev |LC_ALL=C sort -f
+=======
+find  -type f -name "*.git" | rev | cut -d "/" -f 1 | cut -d '.' 2- | rev | LC_ALL-C sort -f
+>>>>>>> 57e110804d2176fba3084d34486fa3328880cc09
