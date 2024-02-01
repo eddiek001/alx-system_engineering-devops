@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# this bash script uses while loops to print Holberton School
+# this bash script uses while loops to print Best School
+
 i=0
 while ((i < 10))
-	do echo 'Holberton School'
+	do echo 'Best School'
 	i=$i+1
 done

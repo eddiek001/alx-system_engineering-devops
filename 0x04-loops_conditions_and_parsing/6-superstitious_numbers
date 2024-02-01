@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # fun script for loop conditionals
+
 i=1
 while [ "$i" -le 20 ]; do
 	echo $i

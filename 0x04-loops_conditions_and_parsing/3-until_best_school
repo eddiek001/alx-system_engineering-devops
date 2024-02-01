@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# using the until loop to print Holberton School
+# using the until loop to print Best School
+
 i=0
 until (("$i" > "9"))
-	do echo 'Holberton School'
+	do echo 'Best School'
 	i=$i+1
 done

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # using nested if in loops
+
 i=0
 while [ "$i" -lt 10 ]; do
 	if [ "$i" -eq 3 ]; then
@@ -7,7 +8,7 @@ while [ "$i" -lt 10 ]; do
 	elif [ "$i" -eq 7 ]; then
 		echo 'good luck'
 	else
-		echo 'Holberton School'	
+		echo 'Best School'	
 	fi
 	((i += 1))
 done
