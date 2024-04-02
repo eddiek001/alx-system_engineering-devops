@@ -42,4 +42,4 @@ else
 
 	# start HAProxy
 	service haproxy start
-fi#!/usr/bin/env bash
+fi

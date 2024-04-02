@@ -44,4 +44,4 @@ printf %s "server {
 # start nginx after reloading config
 service nginx start
 # if nginx was already running restart it
-service nginx restart#!/usr/bin/env bash
+service nginx restart
