@@ -11,8 +11,8 @@ frontend haproxynode
 backend backendnodes
         balance roundrobin
         option forwardfor # ensure forwarded request includes cleint ip
-        server 496-web-01 35.243.204.105
-        server 496-web-02 35.190.182.239
+        server 525572-web-01 100.24.255.83
+        server 525572-web-02 18.234.169.79
 "
 
 # check if hostname is correct

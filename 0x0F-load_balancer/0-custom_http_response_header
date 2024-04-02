@@ -18,7 +18,6 @@ apt-get -y update
 apt-get -y install nginx
 
 # update index.html file
-echo 'Holberton School' > /usr/share/nginx/html/index.html
 echo "Ceci n'est pas une page" > /usr/share/nginx/html/404.html
 
 # update config file to redirect
